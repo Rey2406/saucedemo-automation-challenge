@@ -1,8 +1,10 @@
 {
-  "name": "cypress_inhabit",
+  "name": "saucedemo-automation-challenge",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
