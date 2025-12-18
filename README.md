@@ -28,6 +28,7 @@ https://www.saucedemo.com/
 * Following custom test scripts are setup in `package.json` to run specific test suites in headless format:
   * `npm run cy:run`
   * `npm run cy:open`
+  * `npm run cy:run-ci`
 
 # Screenshots
 
