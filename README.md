@@ -43,3 +43,18 @@ https://www.saucedemo.com/
 * The Project Structure is like this:
 * `HomeSauceDemo.cy.js` file located in e2e folder, that is the home run file.
 * The other js files are located in pages folder.
+
+# Continuous Integration CI
+
+The Project is configured to run Cypress in Continuous Integration.
+
+# Jenkins Integration
+
+* This framework supports the Continous Integration CI with Jenkins, and offers fully customize execution with support for:
+  * Jenkinsfile Pipeline Script
+  * Build with Parameters
+    * Allows to select test specs, browser, browser mode, tags, environment, dashboard recording.
+  * Publishes Mochawesome HTML report via HTML Publisher Plugin
+  * Parses JUnit XML results to display a summary and trends of test results
+  * Sends a Slack Notification with test results summary, link to test report, and job.
+* See the [Jenkinsfile](./Jenkinsfile) to see how the pipeline is configured.
