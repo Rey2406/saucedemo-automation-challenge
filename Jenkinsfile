@@ -12,7 +12,7 @@ pipeline {
         stage('Install dependencies') {
             steps {
                 script {
-                    bat 'npm install'
+                    bat 'npx cypress install'
                 }
             }
         }
